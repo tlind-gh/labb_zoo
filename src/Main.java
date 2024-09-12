@@ -13,7 +13,10 @@ public class Main {
 
         switch (choice) {
             case 1:
-                //code add
+                System.out.print("What animal do you want to add: ");
+                String animal = sc.nextLine();
+                animals.add(animal);
+                System.out.println("\nAnimal has been added to the zoo.");
             case 2:
                 //cpde read list
             case 3:
