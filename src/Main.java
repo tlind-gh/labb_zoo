@@ -24,7 +24,7 @@ public class Main {
             case 4:
                 //remove animal
             case 5:
-                //exit message
+                System.out.println("Program has been terminated.");
 
         }
 
